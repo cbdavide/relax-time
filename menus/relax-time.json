@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle relax-time",
+        "command": "relax-time:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "relax-time",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "relax-time:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
